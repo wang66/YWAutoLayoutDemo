@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  YWAutoLayoutDemo
 //
 //  Created by 王亚文 on 2017/4/6.
 //  Copyright © 2017年 wyw. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CommonViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface HomeViewController : CommonViewController
 
 @end
-

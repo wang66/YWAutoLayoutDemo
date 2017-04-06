@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08A4014A1E9661DC00A9E089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A401491E9661DC00A9E089 /* main.m */; };
 		08A4014D1E9661DC00A9E089 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A4014C1E9661DC00A9E089 /* AppDelegate.m */; };
-		08A401501E9661DC00A9E089 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A4014F1E9661DC00A9E089 /* ViewController.m */; };
-		08A401531E9661DC00A9E089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A401511E9661DC00A9E089 /* Main.storyboard */; };
-		08A401551E9661DC00A9E089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A401541E9661DC00A9E089 /* Assets.xcassets */; };
-		08A401581E9661DC00A9E089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A401561E9661DC00A9E089 /* LaunchScreen.storyboard */; };
 		08A401631E9661DC00A9E089 /* YWAutoLayoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A401621E9661DC00A9E089 /* YWAutoLayoutDemoTests.m */; };
 		08A4016E1E9661DC00A9E089 /* YWAutoLayoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A4016D1E9661DC00A9E089 /* YWAutoLayoutDemoUITests.m */; };
+		08A401841E96626E00A9E089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A4017D1E96626E00A9E089 /* Assets.xcassets */; };
+		08A401851E96626E00A9E089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A4017F1E96626E00A9E089 /* LaunchScreen.storyboard */; };
+		08A401861E96626E00A9E089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A401811E96626E00A9E089 /* Main.storyboard */; };
+		08A401871E96626E00A9E089 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A401831E96626E00A9E089 /* main.m */; };
+		08A401891E9662D800A9E089 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08A401881E9662D800A9E089 /* Info.plist */; };
+		08A4018D1E9663A900A9E089 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A4018C1E9663A900A9E089 /* CommonViewController.m */; };
+		08A401941E96640600A9E089 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A401931E96640600A9E089 /* HomeViewController.m */; };
+		08A401981E96949600A9E089 /* AutoLayoutObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A401971E96949600A9E089 /* AutoLayoutObject.m */; };
+		08A4019B1E969C9300A9E089 /* UIView+AutoLayoutAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 08A4019A1E969C9300A9E089 /* UIView+AutoLayoutAttribute.m */; };
+		08A401A21E96AA6700A9E089 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 08A401A11E96AA6700A9E089 /* 01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +41,29 @@
 
 /* Begin PBXFileReference section */
 		08A401451E9661DC00A9E089 /* YWAutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWAutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		08A401491E9661DC00A9E089 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08A4014B1E9661DC00A9E089 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08A4014C1E9661DC00A9E089 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		08A4014E1E9661DC00A9E089 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		08A4014F1E9661DC00A9E089 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		08A401521E9661DC00A9E089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		08A401541E9661DC00A9E089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		08A401571E9661DC00A9E089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		08A401591E9661DC00A9E089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08A4015E1E9661DC00A9E089 /* YWAutoLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWAutoLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A401621E9661DC00A9E089 /* YWAutoLayoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWAutoLayoutDemoTests.m; sourceTree = "<group>"; };
 		08A401641E9661DC00A9E089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08A401691E9661DC00A9E089 /* YWAutoLayoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWAutoLayoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A4016D1E9661DC00A9E089 /* YWAutoLayoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWAutoLayoutDemoUITests.m; sourceTree = "<group>"; };
 		08A4016F1E9661DC00A9E089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A4017D1E96626E00A9E089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Supporting Files/Assets.xcassets"; sourceTree = "<group>"; };
+		08A401801E96626E00A9E089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08A401821E96626E00A9E089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		08A401831E96626E00A9E089 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
+		08A401881E9662D800A9E089 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		08A4018B1E9663A900A9E089 /* CommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		08A4018C1E9663A900A9E089 /* CommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		08A401921E96640600A9E089 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		08A401931E96640600A9E089 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		08A401961E96949600A9E089 /* AutoLayoutObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutObject.h; sourceTree = "<group>"; };
+		08A401971E96949600A9E089 /* AutoLayoutObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutObject.m; sourceTree = "<group>"; };
+		08A401991E969C9300A9E089 /* UIView+AutoLayoutAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayoutAttribute.h"; sourceTree = "<group>"; };
+		08A4019A1E969C9300A9E089 /* UIView+AutoLayoutAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayoutAttribute.m"; sourceTree = "<group>"; };
+		08A4019F1E96A88F00A9E089 /* YWAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWAutoLayout.h; sourceTree = "<group>"; };
+		08A401A11E96AA6700A9E089 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +114,10 @@
 		08A401471E9661DC00A9E089 /* YWAutoLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				08A4017B1E96620C00A9E089 /* Function */,
+				08A4017C1E96620C00A9E089 /* Public */,
 				08A4014B1E9661DC00A9E089 /* AppDelegate.h */,
 				08A4014C1E9661DC00A9E089 /* AppDelegate.m */,
-				08A4014E1E9661DC00A9E089 /* ViewController.h */,
-				08A4014F1E9661DC00A9E089 /* ViewController.m */,
-				08A401511E9661DC00A9E089 /* Main.storyboard */,
-				08A401541E9661DC00A9E089 /* Assets.xcassets */,
-				08A401561E9661DC00A9E089 /* LaunchScreen.storyboard */,
-				08A401591E9661DC00A9E089 /* Info.plist */,
 				08A401481E9661DC00A9E089 /* Supporting Files */,
 			);
 			path = YWAutoLayoutDemo;
@@ -117,7 +126,10 @@
 		08A401481E9661DC00A9E089 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				08A401491E9661DC00A9E089 /* main.m */,
+				08A401881E9662D800A9E089 /* Info.plist */,
+				08A4017D1E96626E00A9E089 /* Assets.xcassets */,
+				08A4017E1E96626E00A9E089 /* Base.lproj */,
+				08A401831E96626E00A9E089 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +150,96 @@
 				08A4016F1E9661DC00A9E089 /* Info.plist */,
 			);
 			path = YWAutoLayoutDemoUITests;
+			sourceTree = "<group>";
+		};
+		08A4017B1E96620C00A9E089 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				08A4018E1E9663DB00A9E089 /* Home */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		08A4017C1E96620C00A9E089 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				08A401951E96667400A9E089 /* PublicFunction */,
+				08A4018A1E9663A900A9E089 /* PublicCommon */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		08A4017E1E96626E00A9E089 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				08A4017F1E96626E00A9E089 /* LaunchScreen.storyboard */,
+				08A401811E96626E00A9E089 /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = "Supporting Files/Base.lproj";
+			sourceTree = "<group>";
+		};
+		08A4018A1E9663A900A9E089 /* PublicCommon */ = {
+			isa = PBXGroup;
+			children = (
+				08A4018B1E9663A900A9E089 /* CommonViewController.h */,
+				08A4018C1E9663A900A9E089 /* CommonViewController.m */,
+			);
+			path = PublicCommon;
+			sourceTree = "<group>";
+		};
+		08A4018E1E9663DB00A9E089 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				08A401A01E96AA5D00A9E089 /* RHome */,
+				08A4018F1E9663DB00A9E089 /* CHome */,
+				08A401901E9663DB00A9E089 /* MHome */,
+				08A401911E9663DB00A9E089 /* VHome */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		08A4018F1E9663DB00A9E089 /* CHome */ = {
+			isa = PBXGroup;
+			children = (
+				08A401921E96640600A9E089 /* HomeViewController.h */,
+				08A401931E96640600A9E089 /* HomeViewController.m */,
+			);
+			path = CHome;
+			sourceTree = "<group>";
+		};
+		08A401901E9663DB00A9E089 /* MHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MHome;
+			sourceTree = "<group>";
+		};
+		08A401911E9663DB00A9E089 /* VHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VHome;
+			sourceTree = "<group>";
+		};
+		08A401951E96667400A9E089 /* PublicFunction */ = {
+			isa = PBXGroup;
+			children = (
+				08A401961E96949600A9E089 /* AutoLayoutObject.h */,
+				08A401971E96949600A9E089 /* AutoLayoutObject.m */,
+				08A401991E969C9300A9E089 /* UIView+AutoLayoutAttribute.h */,
+				08A4019A1E969C9300A9E089 /* UIView+AutoLayoutAttribute.m */,
+				08A4019F1E96A88F00A9E089 /* YWAutoLayout.h */,
+			);
+			path = PublicFunction;
+			sourceTree = "<group>";
+		};
+		08A401A01E96AA5D00A9E089 /* RHome */ = {
+			isa = PBXGroup;
+			children = (
+				08A401A11E96AA6700A9E089 /* 01.png */,
+			);
+			path = RHome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +348,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A401581E9661DC00A9E089 /* LaunchScreen.storyboard in Resources */,
-				08A401551E9661DC00A9E089 /* Assets.xcassets in Resources */,
-				08A401531E9661DC00A9E089 /* Main.storyboard in Resources */,
+				08A401A21E96AA6700A9E089 /* 01.png in Resources */,
+				08A401891E9662D800A9E089 /* Info.plist in Resources */,
+				08A401861E96626E00A9E089 /* Main.storyboard in Resources */,
+				08A401851E96626E00A9E089 /* LaunchScreen.storyboard in Resources */,
+				08A401841E96626E00A9E089 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +377,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A401501E9661DC00A9E089 /* ViewController.m in Sources */,
+				08A401871E96626E00A9E089 /* main.m in Sources */,
 				08A4014D1E9661DC00A9E089 /* AppDelegate.m in Sources */,
-				08A4014A1E9661DC00A9E089 /* main.m in Sources */,
+				08A4018D1E9663A900A9E089 /* CommonViewController.m in Sources */,
+				08A401941E96640600A9E089 /* HomeViewController.m in Sources */,
+				08A4019B1E969C9300A9E089 /* UIView+AutoLayoutAttribute.m in Sources */,
+				08A401981E96949600A9E089 /* AutoLayoutObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,20 +418,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		08A401511E9661DC00A9E089 /* Main.storyboard */ = {
+		08A4017F1E96626E00A9E089 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				08A401521E9661DC00A9E089 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		08A401561E9661DC00A9E089 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08A401571E9661DC00A9E089 /* Base */,
+				08A401801E96626E00A9E089 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		08A401811E96626E00A9E089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08A401821E96626E00A9E089 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,7 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YWAutoLayoutDemo/Info.plist;
+				INFOPLIST_FILE = "YWAutoLayoutDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wyw.YWAutoLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YWAutoLayoutDemo/Info.plist;
+				INFOPLIST_FILE = "YWAutoLayoutDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wyw.YWAutoLayoutDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
