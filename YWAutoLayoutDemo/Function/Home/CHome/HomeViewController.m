@@ -39,7 +39,7 @@
     [self.contentView addSubview:_bgImgView];
     LAY(_bgImgView.left, self.contentView.left, 1, 0);
     LAY(_bgImgView.right, self.contentView.right, 1, 0);
-    LAY(_bgImgView.top, self.contentView.top, 1, 0);
+    LAY(_bgImgView.top, self.contentView.top, 1, -64.f);
     LAY(_bgImgView.bottom, self.contentView.bottom, 1, 0);
     
     _registerBtn = [UIButton create];
